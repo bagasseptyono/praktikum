@@ -13,7 +13,6 @@ int faktorial(int nilai){
     
     return hasil;
     
-
 }
 
 
@@ -25,7 +24,5 @@ int main (){
     total = faktorial(input);
     printf("Hasil faktorial %i adalah %i",input, total);
 
-
-
-
 }
+

@@ -1,13 +1,7 @@
 #include<iostream>
 #include <stdio.h>
 #include<stdlib.h>
-/*nilai 17 - 20 : Manager
-	nilai 14 - 16 : Asisten Manager
-	nilai 11 - 13 : Senior Eksekutif
-	nilai 8 - 10  : Eksekutif
-	nilai 6 - 8   : Staff
-	nilai 1 - 5   : Operator
-*/
+
 using namespace std;
 
 int main()
@@ -20,7 +14,7 @@ int main()
     if(nilai>=1 && nilai <=5){
         printf("Operator");
     }
-    else if(nilai>=6 && nilai <=8){
+    else if(nilai>=6 && nilai <=1){
         printf("Staff");
     }
     else if(nilai>=8 && nilai <=10){
